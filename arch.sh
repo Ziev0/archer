@@ -9,7 +9,7 @@ sudo pacman -Syu --noconfirm
 
 # Install essential packages
 echo "Installing Git, curl, openssh..."
-sudo pacman -S --noconfirm git curl openssh
+sudo pacman -S --noconfirm git curl openssh unzip
 
 # Install yay if it's not installed (for AUR packages like VS Code)
 if ! command -v yay &> /dev/null; then
