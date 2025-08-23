@@ -15,3 +15,4 @@ sudo pacman -S wget
 sudo pacman -S wofi
 sudo pacman -S xorg-xwayland
 sudo pacman -Syu
+sudo pacman -S bluez bluez-utils
