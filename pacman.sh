@@ -19,3 +19,4 @@ sudo pacman -S alsa-utils alsa-firmware
 sudo pacman -S pipewire pipewire-pulse pipewire-alsa wireplumber
 sudo pacman -S bluez bluez-utils
 sudo pacman -S playerctl libdbusmenu-glib
+sudo pacman -S brightnessctl
