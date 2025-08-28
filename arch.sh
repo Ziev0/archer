@@ -11,18 +11,6 @@ sudo pacman -Syu --noconfirm
 echo "Installing Git, curl, openssh..."
 sudo pacman -S --noconfirm git curl openssh unzip
 
-# Install yay if it's not installed (for AUR packages like VS Code)
-if ! command -v yay &> /dev/null; then
-    echo "Installing yay (AUR helper)..."
-    cd /tmp
-    git clone https://aur.archlinux.org/yay.git
-    cd yay
-    makepkg -si --noconfirm
-fi
-
-# Install Visual Studio Code (AUR version)
-echo "Installing Visual Studio Code..."
-yay -S --noconfirm visual-studio-code-bin
 
 # Configure Git
 echo "Configuring Git..."
